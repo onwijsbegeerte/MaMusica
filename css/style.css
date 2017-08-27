@@ -34,7 +34,7 @@ p {
 }
 
 .title {
-    background-image: url("Images/VrouwenkoorMamusica.jpeg");
+    background-image: url("../img/VrouwenkoorMamusica.jpeg");
     width: 100%;
     height: 400px;
     background-repeat: no-repeat;
