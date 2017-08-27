@@ -1,0 +1,84 @@
+body {
+    margin: auto;
+    width: 75%;
+    padding: 0px;
+    background-color: #FFFCFC;
+    font-family: Arial;
+    font-weight: 100;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: Palatino Linotype;
+    font-weight: 100;
+    margin: 30px;
+}
+
+a:link {
+    color: #B8BEE0;
+}
+
+a:visited {
+    color: #B8BEE0;
+}
+
+h2 {
+    font-family: Palatino Linotype;
+    font-weight: 100;
+    margin: 30px;
+}
+
+p {
+    text-align: justify;
+    margin: 30px;
+}
+
+.title {
+    background-image: url("Images/VrouwenkoorMamusica.jpeg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title div {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 400px;
+    color: white;
+    margin: 0px;
+}
+
+header {
+    background-color: #B8BEE0
+}
+
+.name {
+    margin: 0px 30px;
+    color: white;
+    font-size: 80px;
+}
+
+.container {
+    padding: 10px
+}
+
+.container:nth-child(odd) {
+    background-color: #E4EAF4
+}
+
+.container:nth-child(even) {
+    background-color: #FFFCFC
+}
+
+.container p {
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.container h2 {
+    text-align: center;
+    margin: 5px auto 0px auto;
+    letter-spacing: 1px;
+}
