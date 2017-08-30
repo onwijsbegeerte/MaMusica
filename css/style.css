@@ -8,6 +8,17 @@ body {
     max-width: 600px;
 }
 
+@media only screen and (min-device-width: 480px){
+    body {
+        margin: auto;
+        width: 100%;
+        padding: 0px;
+        background-color: #FFFCFC;
+        font-family: Arial;
+        font-weight: 100;
+    }
+}
+
 h1 {
     font-family: Palatino Linotype;
     font-weight: 100;
@@ -15,11 +26,11 @@ h1 {
 }
 
 a:link {
-    color: #B8BEE0;
+    color: #6876BA;
 }
 
 a:visited {
-    color: #B8BEE0;
+    color: #6876BA;
 }
 
 h2 {
