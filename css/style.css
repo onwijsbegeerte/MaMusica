@@ -8,8 +8,6 @@ body {
     max-width: 800px;
 }
 
-
-
 h1 {
     font-family: Palatino Linotype;
     font-weight: 100;
@@ -79,17 +77,25 @@ header {
     line-height: 25px;
 }
 
+.container img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
 .container h2 {
     text-align: center;
     margin: 5px auto 0px auto;
     letter-spacing: 1px;
 }
-@media screen and (min-width: 900px){
 
-        .title {
-            height: 400px;
-        }
-        .title div {
-            height: 400px;
-        }
+@media screen and (min-width: 900px) {
+    .title {
+        height: 400px;
     }
+    .title div {
+        height: 400px;
+    }
+}
